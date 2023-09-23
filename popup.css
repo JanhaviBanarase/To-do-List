@@ -1,0 +1,51 @@
+body{
+  width: 250px;
+  padding: 10px;
+  font-family:sans-serif;
+  background-color: #C8FFE0;
+}
+.main{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.header {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #0C356A;
+  font-size: 24px;
+  }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+#addTask {
+  /*margin-top: 10px;*/
+  padding: 5px 10px;
+  background-color:#0C356A;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  
+  
+}
